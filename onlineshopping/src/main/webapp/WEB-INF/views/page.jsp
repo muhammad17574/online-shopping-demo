@@ -19,7 +19,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Online ${title}</title>
+<title>Online shopping</title>
 <script>
 	window.menu = '${title}';
 </script>
@@ -72,13 +72,13 @@
 
 
 		<!-- Bootstrap core JavaScript -->
-		<script src="${js}/jquery.min.js"></script>
+		<script src="${js}/jquery.min.js"> </script>
 		<script src="${js }/popper.min.js"></script>
 		<script src="${js }/bootstrap.min.js"></script>
 
 		<!-- Self Coded JavaScript  -->
 
-		<script src="${js }/myapp.js"></script>
+		<script src="${js}/myapp.js"></script>
 
 	</div>
 	

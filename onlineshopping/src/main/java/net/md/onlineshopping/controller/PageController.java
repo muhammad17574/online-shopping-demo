@@ -42,7 +42,7 @@ public class PageController {
 	@RequestMapping(value = { "/contact", })
 	public ModelAndView contact() {
 		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("title", "All Products");
+		mv.addObject("title", "Contact Us");
 		mv.addObject("userClickContact",true);
 		return mv;
 
@@ -53,7 +53,7 @@ public class PageController {
 	@RequestMapping(value = { "/show/all/products" })
 	public ModelAndView showAllProducts() { 
 		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("title", "All Proudcts");
+		mv.addObject("title", "All Products");
 		
 		
 	  /*
